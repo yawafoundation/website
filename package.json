@@ -1,0 +1,16 @@
+{
+  "name": "yawa-website",
+  "version": "0.0.1",
+  "description": "YAWA website",
+  "homepage": "https://github.com/zzzaim/yawa-website#readme",
+  "bugs": {
+    "url": "https://github.com/zzzaim/yawa-website/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "author": "Zaim Bakar (https://zbr.works)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzaim/yawa-website.git"
+  }
+}
