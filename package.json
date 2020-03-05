@@ -12,5 +12,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zzzaim/yawa-website.git"
+  },
+  "scripts": {
+    "build": "true"
+  },
+  "devDependencies": {
+    "now": "^17.0.4"
   }
 }
