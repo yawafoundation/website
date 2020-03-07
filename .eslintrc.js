@@ -26,5 +26,7 @@ module.exports = {
   },
   ignorePatterns: ["public/", "!*rc.js"],
   plugins: ["react"],
-  rules: {}
+  rules: {
+    "react/react-in-jsx-scope": "off"
+  }
 };
