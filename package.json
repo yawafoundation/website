@@ -14,9 +14,21 @@
     "url": "git+https://github.com/zzzaim/yawa-website.git"
   },
   "scripts": {
+    "test": "eslint .",
     "build": "true"
   },
   "devDependencies": {
-    "now": "^17.0.4"
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.2.3",
+    "now": "^17.0.4",
+    "prettier": "^1.19.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   }
 }
