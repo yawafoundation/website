@@ -6,6 +6,9 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended"
   ],
@@ -25,8 +28,10 @@ module.exports = {
     }
   },
   ignorePatterns: ["public/", "!*rc.js"],
-  plugins: ["react"],
+  plugins: ["import", "jsx-a11y", "react", "react-hooks"],
   rules: {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 };
