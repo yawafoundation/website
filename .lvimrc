@@ -1,0 +1,10 @@
+" Localvimrc is awesome!
+" https://github.com/embear/vim-localvimrc
+
+" Finish if currently edited file already loaded
+if g:localvimrc_sourced_once_for_file
+  finish
+endif
+
+let b:ale_linters = ['tsserver']
+let b:ale_fixers = ['eslint']
