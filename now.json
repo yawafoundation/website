@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "scope": "yawa",
   "redirects": [
     {
       "source": "/",
